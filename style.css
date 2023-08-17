@@ -1,0 +1,70 @@
+body{
+    background-color: #FD8D14;
+    text-decoration: none;
+    
+}
+header{
+    border: 2px solid black;
+    height: 110px;
+     color:white;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+  
+    
+}
+nav{
+    border: 2px solid black;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    word-spacing: 70px;
+    color: white;
+    background-color: black;
+    
+}
+section{
+    border: 0px solid black;
+    height: 60px;
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+    padding-top: 110px;
+}
+article{
+    border: 0px solid black;
+    height: 170px;
+    width: 75%;
+    text-align: center;
+    
+}
+aside{
+    border: 2px solid black;
+    height: 364px;
+    width: 25%;
+    margin-left: 1140.2px;
+    margin-top: -404px;
+    background-color: black;
+
+}
+footer{
+    border: 0px solid black;
+    margin-top: 20px;
+    height: 80px;
+    padding-left: 550px;
+    
+}
+.tapa{
+    border: 0px solid black;
+    width: 75%;
+    animation-name:tap;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+   
+   
+}
+@keyframes tap{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-100%);}
+}
